@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <title>Opiskelijan työpöytä</title>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #EA3C53;
+  color: white;
+  font-size: 20px;
+}
+.container {
+	text-align: center;
+	padding:40px;
+	
+	
+}
+body {
+  color: white;
+  background-color: black;
+}
+.column {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="https://www.is.fi">Ajankohtaista</a></li>
+  <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ota yhteyttä</a></li>
+  <li style="float:right"><a class="active" href="https://alukkala.github.io/projekti/forms1.html">Kirjaudu sisään</a></li>
+</ul>
+
+
+<div class="header">
+  <h3>Tervetuloa</h3>
+  <p>Opiskelijan työpöytään</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+     <a href="#notdone">
+          <img src="Images/Viestit.png"></a>
+          <div class="caption">
+            <p>Vastaanota ja lähetä viestejä</p>
+          </div>
+    </div>
+    <div class="col">
+        <a href="#notfinished" target="_blank">
+          <img src="Images/Kalenteri.png" ></a>
+          <div class="caption">
+            <p>Katso opintoja, joillet olet ilmoittautaunut.</p>
+          </div>
+      </div>
+    <div class="col">
+        <a href="#notfinished" target="_blank">
+          <img src="Images/Suoritukset.png"></a>
+          <div class="caption">
+            <p>Katso suorittamasi opinnot</p>
+          </div>
+      </div>
+ </div>
+ <div class="row">
+    <div class="col">
+        <a href="#underconstruction" target="_blank">
+          <img src="Images/Tavoiteseuranta.png"></a>
+          <div class="caption">
+            <p>Seuraa opintojesi etenemistä</p>
+          </div>
+        </a>
+    </div>
+	<div class="col">
+        <a href="#about" target="_blank">
+          <img src="Images/Lukkarit.png"></a>
+          <div class="caption">
+            <p>Hae lukujärjestyksiä</p>
+          </div>
+    </div>
+	<div class="col">
+        <a href="#stillinprogress" target="_blank"></a>
+          <img src="Images/ilmoi.png"></a>
+          <div class="caption">
+            <p>Ilmoittaudu avoinna oleville opintojaksoille/tenteille</p>
+          </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
